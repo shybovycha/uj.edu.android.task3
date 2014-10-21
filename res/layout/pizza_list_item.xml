@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5dip"
+        >
+    <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="5dip"-->
+            <!--android:layout_alignParentLeft="true">-->
+        <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:src="@drawable/ic_launcher"
+        />
+    <!--</LinearLayout>-->
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="Small pizza"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:layout_alignTop="@id/thumbnail"
+            />
+
+    <TextView
+            android:id="@+id/price"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="38sp"
+            android:text="10.00 ZŁ"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/thumbnail"
+            />
+</RelativeLayout>
