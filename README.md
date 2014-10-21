@@ -15,7 +15,7 @@ Workshop: (3) 2014-03-12
 
 ## Assignements
 
-**Pizza ordering**
+### Pizza ordering
 
 Create Android SDK application for placing orders for pizza. The UI consists of four screens (1) to (4).
 
