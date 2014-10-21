@@ -5,7 +5,8 @@
 Mobile Devices Programming - Android
 Jagiellonian University, Institute of Computer Science, 2014
 
-Author: Przemysław Kadela
+Task: Przemysław Kadela
+Solution: Artem Shoobovych
 Workshop: (3) 2014-03-12
 
 
