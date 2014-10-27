@@ -24,7 +24,6 @@
                 android:background="#1E1E1E"
                 android:gravity="top"
                 android:textSize="24dp"
-                android:
                 />
     </LinearLayout>
 
