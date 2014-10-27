@@ -57,7 +57,8 @@ public class MainActivity extends ListActivity {
         Random rnd = new Random();
 
         for (int i = 0; i < 5; i++) {
-            Pizza pizza = new Pizza(String.format("pizza #%d", i), (rnd.nextInt() * 3.14), "http://google.com/");
+            double price = Math.abs((((rnd.nextInt() % 20) * 1.0)));
+            Pizza pizza = new Pizza(String.format("pizza #%d", i), price, "http://google.com/");
             pizzas.add(pizza);
         }
     }

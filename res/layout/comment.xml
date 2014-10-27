@@ -14,7 +14,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Your comment:"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 />
 
         <EditText
@@ -23,7 +23,7 @@
                 android:id="@+id/comment"
                 android:background="#1E1E1E"
                 android:gravity="top"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 />
     </LinearLayout>
 

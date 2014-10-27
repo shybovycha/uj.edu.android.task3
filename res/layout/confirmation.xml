@@ -22,7 +22,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Pizza:"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:layout_weight="1"
                     />
 
@@ -32,7 +32,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="pizza_title"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:id="@+id/pizza_title"
                     android:gravity="right"
                     />
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Price:"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:layout_weight="1"
                     />
 
@@ -59,7 +59,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="pizza_price"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:id="@+id/pizza_price"
                     android:gravity="right"
                     />
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Extras:"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:layout_weight="1"
                     />
 
@@ -86,7 +86,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="extras"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:id="@+id/extras"
                     android:gravity="right"
                     />
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Your comment:"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:layout_weight="1"
                     />
 
@@ -113,7 +113,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="comment"
-                    android:textSize="20dp"
+                    android:textSize="26dp"
                     android:id="@+id/comment"
                     android:gravity="right"
                     />
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Total:"
-                    android:textSize="28dp"
+                    android:textSize="32dp"
                     android:layout_weight="1"
                     />
 
@@ -140,7 +140,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="total"
-                    android:textSize="28dp"
+                    android:textSize="32dp"
                     android:id="@+id/total"
                     android:gravity="right"
                     />
@@ -163,7 +163,7 @@
             <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="26dp"
                     android:textAllCaps="true"
                     android:text="reset"
                     android:id="@+id/reset_button"
@@ -175,7 +175,7 @@
             <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="26dp"
                     android:textAllCaps="true"
                     android:text="submit"
                     android:id="@+id/submit_button"

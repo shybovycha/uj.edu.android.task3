@@ -36,7 +36,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="XXL version"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 android:id="@+id/extra_size"
                 />
 
@@ -44,7 +44,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Extra cheese"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 android:id="@+id/extra_cheese"
                 />
 
@@ -52,7 +52,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Express service"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 android:id="@+id/express_service"
                 />
     </LinearLayout>
@@ -67,7 +67,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="next"
-                android:textSize="24dp"
+                android:textSize="26dp"
                 android:background="#00AAFF"
                 android:textAllCaps="true"
                 android:id="@+id/next"
