@@ -54,6 +54,7 @@ public class PizzaAdapter extends BaseAdapter {
         title.setText(pizza.getTitle());
         price.setText(pizza.getPriceStr());
         thumb_image.setImageURI(pizza.getThumbnail());
+        thumb_image.setImageDrawable(activity.getResources().getDrawable(R.drawable.ic_launcher));
         // imageLoader.DisplayImage(song.get(CustomizedListView.KEY_THUMB_URL), thumb_image);
 
         return vi;
