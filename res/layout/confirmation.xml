@@ -21,8 +21,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
-                    android:text="Pizza type:"
-                    android:textSize="20sp"
+                    android:text="Pizza:"
+                    android:textSize="20dp"
                     android:layout_weight="1"
                     />
 
@@ -31,9 +31,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:text="pizza_type"
-                    android:textSize="20sp"
-                    android:id="@+id/type"
+                    android:text="pizza_title"
+                    android:textSize="20dp"
+                    android:id="@+id/pizza_title"
                     android:gravity="right"
                     />
         </TableRow>
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Price:"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_weight="1"
                     />
 
@@ -59,8 +59,8 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="pizza_price"
-                    android:textSize="20sp"
-                    android:id="@+id/price"
+                    android:textSize="20dp"
+                    android:id="@+id/pizza_price"
                     android:gravity="right"
                     />
         </TableRow>
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Extras:"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_weight="1"
                     />
 
@@ -86,7 +86,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="extras"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:id="@+id/extras"
                     android:gravity="right"
                     />
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Your comment:"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_weight="1"
                     />
 
@@ -112,8 +112,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="false"
-                    android:text="pizza_price"
-                    android:textSize="20sp"
+                    android:text="comment"
+                    android:textSize="20dp"
                     android:id="@+id/comment"
                     android:gravity="right"
                     />
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:textAllCaps="true"
                     android:text="Total:"
-                    android:textSize="28sp"
+                    android:textSize="28dp"
                     android:layout_weight="1"
                     />
 
@@ -140,7 +140,7 @@
                     android:layout_weight="1"
                     android:textAllCaps="false"
                     android:text="total"
-                    android:textSize="28sp"
+                    android:textSize="28dp"
                     android:id="@+id/total"
                     android:gravity="right"
                     />
@@ -152,7 +152,7 @@
             android:layout_height="fill_parent"
             android:gravity="bottom"
             android:orientation="vertical"
-            android:layout_weight="10"
+            android:layout_weight="4"
             >
         <LinearLayout
                 android:layout_width="fill_parent"
@@ -167,8 +167,9 @@
                     android:textAllCaps="true"
                     android:text="reset"
                     android:id="@+id/reset_button"
-                    android:layout_weight="1"
+                    android:layout_weight="4"
                     android:background="#DE2222"
+                    android:onClick="onResetButtonClick"
                     />
 
             <Button
@@ -178,8 +179,9 @@
                     android:textAllCaps="true"
                     android:text="submit"
                     android:id="@+id/submit_button"
-                    android:layout_weight="1"
                     android:background="#00AAFF"
+                    android:onClick="onSubmitButtonClick"
+                    android:layout_weight="4"
                     />
         </LinearLayout>
     </LinearLayout>
